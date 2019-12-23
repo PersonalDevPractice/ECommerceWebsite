@@ -7,7 +7,18 @@ services:
             - default
         ports:
             - "8080:8080"
-
+        depends_on:
+            - mongo_database
+    mongo_database:
+        image: mongo
+        container_name: mongo_database
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: password
+        volumes:
+            - ./data/db:/data/db
+        ports:
+            - 27017:27017
 networks:
     default:
 
