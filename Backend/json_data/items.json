@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "itemName": "tshirt",
+        "category": "top",
+        "colour": "black",
+        "price": 19.99,
+        "image": "black-tshirt.jpeg",
+        "gender": "male",
+        "description": "A plain black tshirt"
+    },
+    {
+        "id": 2,
+        "itemName": "tshirt",
+        "category": "top",
+        "colour": "purple",
+        "price": 29.99,
+        "image": "purple-tshirt.jpeg",
+        "gender": "male",
+        "description": "A plain purple tshirt"
+    },
+    {
+        "id": 3,
+        "itemName": "tshirt",
+        "category": "top",
+        "colour": "orange",
+        "price": 9.99,
+        "image": "orange-tshirt.jpeg",
+        "gender": "male",
+        "description": "A plain orange tshirt"
+    },
+    {
+        "id": 4,
+        "itemName": "tshirt",
+        "category": "top",
+        "colour": "white",
+        "price": 18.99,
+        "image": "white-tshirt.jpeg",
+        "gender": "male",
+        "description": "A plain white tshirt"
+    },
+    {
+        "id": 5,
+        "itemName": "tshirt",
+        "category": "top",
+        "colour": "blue",
+        "price": 15.99,
+        "image": "blue-tshirt.jpeg",
+        "gender": "male",
+        "description": "A plain blue tshirt"
+    }
+]
