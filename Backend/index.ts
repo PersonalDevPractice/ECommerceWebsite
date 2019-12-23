@@ -13,7 +13,7 @@ app.listen(8080, () => {
 
 // Basic route setup
 app.get('/', (req, res) => {
-    res.send('base route);
+    res.send('base route');
 });
 
 // Endpoint for retrieving hardcoded items -- Replace logic to get from DB and send all results
