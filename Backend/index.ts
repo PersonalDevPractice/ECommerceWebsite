@@ -19,7 +19,16 @@ app.get('/', (req, res) => {
 // Endpoint for retrieving hardcoded items -- Replace logic to get from DB and send all results
 app.get('/items', (req, res) => {
     res.send(JSON.stringify(itemsJson));
-})
+});
+
+app.get('/CreateDatabase', (req, res) => {
+    // await process function
+    const creation = new Promise(() => {
+
+    });
+    // Once returned send respone
+    creation.then(val => res.send(val));
+});
 
 function InitProject() {
     // Send Initial data files to MongoDB
@@ -55,3 +64,8 @@ const insertDocuments = (db, callback) => {
         }
     });
 }
+
+const fetchItems = (db, callback) => {
+    const collection =  db.collection('items');
+
+};
